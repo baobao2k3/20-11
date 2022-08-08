@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20-11</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Lobster&family=Playball&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Playball&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./acces/style.css">
+    <link rel="stylesheet" href="./acces/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="main-write">
+
+            <div class="rope">
+                <img src="./acces/image/pngwing.com.png" alt="">
+            </div>
+            <div class="fly">
+                <img src="./acces/image/fly.png" alt="">
+            </div>
+            <div class="wishes">
+                <button class="js-open">Gửi lời chúc</button>
+            </div>
+         <div class="text-main">
+             <h1 class="text-header">
+               Chúc Mừng
+             </h1>
+             <p class="text-body">
+                Ngày Nhà Giáo Việt Nam 20-11
+             </p>
+             <h1 class="text-footer">
+               ---Happy Teacher's day---
+             </h1>
+             <h3 class="text-kt">
+                 Trần Công Bảo
+             </h3>
+         </div>
+        </div>
+        <div class="model-gift js-gift">
+            <div class="model-main">
+                <img class="img1" src="./acces/image/rose.png" alt="">
+                <img class="img2" src="./acces/image/rose.png" alt="">
+                <img class="img3" src="./acces/image/rose.png" alt="">
+                <img class="img4" src="./acces/image/rose.png" alt="">
+                <div class="model-close js-close">
+                    <i class="ti-close">
+
+                    </i>
+                </div>
+                <div class="model-text">
+                <div class="model-header">
+                     Ngày Nhà Giáo Việt Nam 20-11
+                </div>
+                <div class="model-body">
+                 Nhân ngày nhà giáo Việt Nam, em xin chúc các thầy cô lời chúc tốt đẹp nhất. Chúc các thầy cô hoàn thành nhiệm vụ cao cả của mình tron sự nghiệp trăm năm trồng người và xây dựng dất nước 
+                </div>
+                <div class="model-footer">Trần Công Bảo</div>
+             </div>
+            </div>
+        </div>
+        <div class="down-write">
+            <div class="book">
+                <img src="./acces/image/kisspng-transparency-clip-art-portable-network-graphics-bo-5c70fd513774e1.6654476115509087532272 (1).png" alt="">
+            </div>
+            <div class="flower">
+                <img src="./acces/image/kisspng-flower-common-daisy-petal-wallpaper-cup-of-white-chrysanthemum-picture-material-5a9649a09b6e81.6377974115197986886367.png" alt="">
+            </div>
+           <div class="box">
+               <img src="./acces/image/rose.png" alt="">
+               <img src="./acces/image/rose.png" alt="">
+               <img src="./acces/image/rose.png" alt="">
+               <img src="./acces/image/rose.png" alt="">
+               <img src="./acces/image/rose.png" alt="">
+               <img src="./acces/image/rose.png" alt="">
+               <img src="./acces/image/rose.png" alt="">
+               <img src="./acces/image/rose.png" alt="">
+               <img src="./acces/image/rose.png" alt="">
+               <img src="./acces/image/rose.png" alt="">
+               <img src="./acces/image/rose.png" alt="">
+               <img src="./acces/image/rose.png" alt="">
+           </div>
+           <div class="nap">
+           </div>
+        </div>
+        <!-- JS -->
+           <script>
+               const checkBtn = document .querySelector ('.js-open')
+               const mainBtn = document .querySelector (' .js-gift')
+               const closeBtn = document .querySelector (' .js-close')
+               
+               function showmodel (){
+                   mainBtn.classList.add('open')
+               }
+               function hidenmodel (){
+                   mainBtn.classList.remove('open')
+               }
+             
+               checkBtn.addEventListener('click',showmodel)
+               closeBtn.addEventListener('click',hidenmodel)
+            </script>
+        <!-- end js -->
+        
+    </div>
+</body>
+</html>
